@@ -1,0 +1,65 @@
+*{
+    background-color:  #34aaa4; 
+}
+
+h1{
+    background-color: #236662;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+}
+
+form{
+    display:grid;
+    place-items: center;
+    box-shadow: 2px 2px 8px black;
+    height:70%;
+    width: 60%;
+    margin-left:20%;
+    margin-right: 15%;
+
+}
+
+input ,select{
+    color: rgb(0, 0, 0);
+    width: 50%;
+    font-size: medium;
+    font-weight: 300;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
+label {
+    color: rgb(0, 0, 0);
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.gender{
+    box-sizing: border-box;
+}
+
+/*.radio{
+  display: inline-block;
+  margin-right: 10px;
+ 
+    
+    
+}
+
+button{
+    width: 50%;
+    cursor: pointer;
+    vertical-align: center;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    background-color:#2b746f ;
+}
